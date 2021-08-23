@@ -34,17 +34,17 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #084c61;
-  --bs-secondary: #4f6d7a;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-secondary: #607b7d;
+  --bs-success: #828e82;
+  --bs-info: #aaae8e;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 8, 76, 97;
-  --bs-secondary-rgb: 79, 109, 122;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-secondary-rgb: 96, 123, 125;
+  --bs-success-rgb: 130, 142, 130;
+  --bs-info-rgb: 170, 174, 142;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -7706,7 +7706,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
